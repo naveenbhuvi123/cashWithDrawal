@@ -1,0 +1,99 @@
+.container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.denomination-container {
+  background-color: #150b3e;
+  width: 35%;
+  border-radius: 10px;
+  border-width: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .denomination-container {
+    width: 45%;
+    border-radius: 10px;
+    border-width: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+  }
+}
+.user-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.profile {
+  background-color: #c7d2fe;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  color: #7c3aed;
+  font-size: 13px;
+  margin-right: 13px;
+}
+.name {
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: normal;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.balance-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-info {
+  font-size: 14px;
+  font-family: roboto;
+  color: #382f5a;
+  display: flex;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.currency {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: roboto;
+  color: #382f5a;
+  text-align: end;
+}
+.balance-amount {
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: normal;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+}
+.heading {
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+}
+
+.denominationContainer {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
